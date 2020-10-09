@@ -1,0 +1,3 @@
+touch really-hard-file-with-this-name
+xclip -selection clipboard really-hard-file-with-this-name
+rm really-hard-file-with-this-name

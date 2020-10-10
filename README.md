@@ -20,7 +20,7 @@ sudo mv commands-temp/* /usr/local/bin &&
 rmdir commands-temp
 ```
 
-Following this command you will:
+Following these commands above you will:
 
 - Create a new directory (commands-temp)
 - Create a copy of the commands in this new directory (commands-temp)

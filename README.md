@@ -1,12 +1,20 @@
 # useful-linux-commands
 Just commands to be used on linux terminal
 
+# dependencies
+Programs that need to be installed before you can use all of these commands
+
+```
+xclip
+mg123
+```
+
 # steps
 You just need to run the command below:
 
 ```
 mkdir commands-temp &&
-cp commands/* commands-temp &&
+cp -r commands/* commands-temp &&
 chmod -R u+x commands-temp/ &&
 sudo mv commands-temp/* /usr/local/bin &&
 rmdir commands-temp

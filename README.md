@@ -24,6 +24,6 @@ Following this command you will:
 
 - Create a new directory (commands-temp)
 - Create a copy of the commands in this new directory (commands-temp)
-- made all comands inside commands-temp executable
+- Made all comands inside commands-temp executable
 - Move all commands inside commands-temp to /usr/local/bin
 - Delete commands-temp directory

@@ -5,6 +5,7 @@ Just commands to be used on linux terminal
 Programs that need to be installed before you can use all of these commands
 
 ```
+rsync
 xclip
 mg123
 ```
@@ -16,8 +17,8 @@ You just need to run the command below:
 mkdir commands-temp &&
 cp -r commands/* commands-temp &&
 chmod -R u+x commands-temp/ &&
-sudo mv commands-temp/* /usr/local/bin &&
-rmdir commands-temp
+sudo rsync -a commands-temp/* /usr/local/bin &&
+rm -rf commands-temp
 ```
 
 Following these commands above you will:

@@ -1,1 +1,1 @@
-mpg123 -q ./media/Warning-beeping-sound.mp3
+mpg123 -q /usr/local/bin/media/Warning-beeping-sound.mp3

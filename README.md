@@ -7,7 +7,7 @@ Programs that need to be installed before you can use all of these commands
 ```
 rsync
 xclip
-mg123
+mpg123
 ```
 
 # steps
